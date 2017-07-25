@@ -1,0 +1,15 @@
+v0.0.5（2016.03.31）
+* layer拓展模块layer.ext.js合并
+* 增加本地存储函数layui.data(db, options);
+* 修复upload组件onload事件无法响应的bug
+* 增加个别css3动画库(.layui-anim)
+
+v0.0.4（2016.03.25）
+* 对upload上传的文件类型进行了选择性判断，默认判断图片类型，通过check参数自定义类型
+* 改善upload组件原始input元素结构
+* 增强upload组件稳健性
+* 增加了layer、laydate所需的缺失图片（之前版本没构建上）
+
+v0.0.3（2016.03.15）
+* 增强form组件功能，及修复多项bug
+* 修复upload组件bug

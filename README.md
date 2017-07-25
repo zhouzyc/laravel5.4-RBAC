@@ -14,3 +14,5 @@ php artisan db:seed --class=AdminUserTableSeeder
 php artisan db:seed --class=AdminNoteTableSeeder
 
 后台账号admin  密码 123456
+
+有问题可以Q609435061

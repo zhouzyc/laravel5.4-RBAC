@@ -1,0 +1,89 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.addbtn{
+    margin-bottom: 20px !important;
+    margin-top: 8px !important;
+}
+
+.flypage{
+    text-align: center !important;
+}
+.hint{
+    line-height: 30px;
+    color:red;
+}
+.change-phone{
+    line-height: 30px;color: #0a6aa1;cursor: pointer
+}
+.hintfont{
+    line-height: 30px;
+}
+.hintparam{
+    line-height: 35px;margin-right: 10px;
+    font-weight: bold;
+}
+.float-left{
+    float: left
+}
+.fly-control-label{
+    float: left;
+    margin-top: 8px;
+    margin-right: 2px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.fly-checkbox {
+    margin: 10px 0 !important;
+    float: left;
+    cursor: pointer;
+}
+.fly-business{
+    margin: 5px 0;
+}
+.fly-business>span{
+    margin:  0 20px;
+}
+
+.search-stock-group{
+    position: absolute;background: #ffffff;z-index: 19891019;width:255px;top: 30px;
+}
+.search-stock-group1{
+    background: #ffffff;z-index: 19891019;width:200px;
+}
+.search-stock,.search-stock1{
+    line-height: 30px;text-align: center;border: 1px solid #e5e6e7;cursor: pointer;
+}
+.search-stock:hover,.search-stock1:hover{
+    background: #f2f2f2;
+}
+.cancel-stock{
+    margin-left: 10px;
+}
+.fly-tabel{
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+}
+.fly-tabel .fly-tabel-div{
+    /*background: #e7eaec;*/
+    border: 1px solid #e7eaec;
+}
+.fly-tabel .fly-tabel-div:hover{
+    background: #f2f2f2;
+}
+.fly-tabel .fly-tabel-div span{
+    width: 24%;
+    font-weight: 300;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 5px;
+}
+.fly-tabel-show{
+    display: none;
+}
+.fly-show{
+    cursor: pointer;color: #0a6aa1;float: right;padding-right:10px;
+}

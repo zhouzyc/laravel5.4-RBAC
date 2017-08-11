@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    {!! Form::label('admin_note_controller', '控制器name:', ['class'=>'col-sm-2 control-label']) !!}
+                    {!! Form::label('admin_note_controller', '路由name:', ['class'=>'col-sm-2 control-label']) !!}
 
                     <div class="col-sm-3">
                         {!! Form::text('param[admin_note_controller]',$data->admin_note_controller, ['class'=>'form-control','id'=>'admin_note_controller','maxlength'=>30]) !!}
@@ -49,7 +49,7 @@
                 </div>
                 <div class="form-group">
                     {!! Form::label('admin_note_action', '父级name:', ['class'=>'col-sm-2 control-label']) !!}
-
+                    <label>如果是父级,改字段存它下面所有的子集name英文,号分割。如果是自己,改字段存他的父级name</label>
                     <div class="col-sm-3">
                         {!! Form::text('param[admin_note_action]',$data->admin_note_action, ['class'=>'form-control','id'=>'admin_note_action','maxlength'=>30]) !!}
                     </div>

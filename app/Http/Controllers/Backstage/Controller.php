@@ -354,7 +354,7 @@ class Controller extends BaseController
 
                  $ioOpen = 0;
 
-                 if(!empty($val['children'])){
+                 if($val['admin_has_subset'] == 1){
 
 
                     foreach($val['children'] as $children){
@@ -372,6 +372,10 @@ class Controller extends BaseController
 
                  }
 
+                 if($val['admin_note_show'] == 0){
+                    continue;
+                 }
+
                  if($ioOpen == 1){
 
                        $noteHtml[$key]['html'].= ' <li class="active"> ';
@@ -382,7 +386,7 @@ class Controller extends BaseController
 
                  }
     //
-                 if(!empty($val['children'])){
+                 if($val['admin_has_subset'] == 1){
 
 
                      $noteHtml[$key]['html'].= '    <a href="#" > ';
